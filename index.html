@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="website icon" type="webp" href="building-4751158_1280.webp" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="parallax into">
+      <nav class="navbar">
+        <div class="logo">Ramadhan</div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#benefit">Benefit</a></li>
+          <li><a href="#tujuan">objective</a></li>
+        </ul>
+      </nav>
+      <script>
+        const mobileMenu = document.getElementById("mobile-menu");
+        const navList = document.querySelector(".nav-list");
+
+        mobileMenu.addEventListener("click", () => {
+          navList.classList.toggle("active");
+        });
+      </script>
+      <!-- 
+      <div class="text">
+        <div class="container text">Selamat datang di bulan suci Ramadhan</div>
+      </div> -->
+      <section id="home">
+        <section id="home">
+          <div class="leftHome">
+            <!-- <h3>Digital media agency</h3> -->
+            <h2>Ramadhan Mubarak</h2>
+            <p class="desc">
+              "Marhaban ya Ramadhan! Bulan penuh berkah telah tiba. Saatnya kita
+              memperbanyak ibadah, berbagi kebaikan, dan menyucikan hati.
+              Selamat menjalankan ibadah puasa!"
+            </p>
+          </div>
+          <img class="rightHome" src="" />
+        </section>
+      </section>
+    </div>
+
+    <!-- Virtues -->
+    <section id="prayers" class="virtues">
+      <div class="section-title">
+        <h2>Keutamaan Bulan Ramadan</h2>
+        <div class="ornament"></div>
+      </div>
+      <div class="virtues-grid">
+        <div class="virtue-card">
+          <h3>puasa</h3>
+          <p>
+            Puasa mengajarkan disiplin diri dan empati terhadap mereka yang
+            membutuhkan
+          </p>
+        </div>
+        <div class="virtue-card">
+          <h3>Amal</h3>
+          <p>
+            Memberi kepada orang lain memurnikan kekayaan dan menyebarkan kasih
+            sayang
+          </p>
+        </div>
+        <div class="virtue-card">
+          <h3>Doa</h3>
+          <p>Doa yang teratur memperkuat hubungan kita dengan Allah</p>
+        </div>
+        <div class="virtue-card">
+          <h3>Quran</h3>
+          <p>Membaca Quran membawa kedamaian dan petunjuk ke dalam hati kita</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="parallax History">
+      <div class="section-title">
+        <h2>sejarah bulan ramadhan</h2>
+        <div class="ornament"></div>
+      </div>
+      <section id="about">
+        <section id="History">
+          <div class="leftHistory">
+            <p class="desc">
+              Bulan Ramadhan adalah bulan kesembilan dalam kalender Islam
+              (Hijriah) yang memiliki makna spiritual dan keutamaan bagi umat
+              Muslim di seluruh dunia. Pada bulan ini, umat Islam diwajibkan
+              untuk menjalankan ibadah puasa dari terbit fajar hingga terbenam
+              matahari sebagai bentuk ketaatan kepada Allah SWT.
+            </p>
+          </div>
+          <img class="rightHistory" src="" alt="" />
+        </section>
+
+        <section id="aboutUs">
+          <img src="" />
+          <div class="content">
+            <p class="description">
+              Selain puasa, Ramadhan juga dikenal sebagai bulan penuh berkah,
+              ampunan, dan rahmat. Pada bulan ini, umat Islam dianjurkan untuk
+              memperbanyak ibadah seperti sholat tarawih, membaca Al-Qur'an,
+              Selain puasa, Ramadhan juga dikenal sebagai bulan penuh berkah,
+              ampunan, dan rahmat. Pada bulan ini, umat Islam dianjurkan untuk
+              memperbanyak ibadah seperti sholat tarawih, membaca Al-Qur'an,
+              bersedekah, dan meningkatkan amal kebaikan.
+            </p>
+          </div>
+        </section>
+      </section>
+    </div>
+    <!-- Main Hero -->
+    <section id="home" class="hero">
+      <!-- <div class="lantern left"></div>
+      <div class="lantern right"></div> -->
+      <div class="hero-content">
+        <h1 class="arabic-title">
+          نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانَ هَذِهِ
+          السَّنَةِ لِلَّهِ تَعَالَى
+        </h1>
+        <p class="subtitle">
+          Nawaitu shauma ghadin 'an adā'i fardhi syahri Ramadhāna
+          hadzihis-sanati lillāhi ta'ālā.
+        </p>
+      </div>
+    </section>
+
+    <div class="parallex benefit">
+      <div class="section-title">
+        <h2>Manfaat puasa Ramadhan</h2>
+        <div class="ornament"></div>
+      </div>
+      <section id="benefit">
+        <ul class="ul">
+          <li>
+            <a href="#">
+              <i class="thumbs-up"></i>
+              <span>Meningkatkan ketakwaan</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="-comment"></i>
+              <span> Membersihkan jiwa </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="share"></i>
+              <span>Detoksifikasi tubuh</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="-heart"></i>
+              <span>Meraih pahala</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <section id="home" class="hero">
+      <!-- <div class="lantern left"></div>
+      <div class="lantern right"></div> -->
+      <div class="hero-content">
+        <h1 class="arabic-title">
+          اللهُمَ لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ
+          فَتَقَبَّلْ مِنِّيْ إِنَّكَ أَنْتَ السَّمِيُعُ الَعَلِيُمُ
+        </h1>
+        <p class="subtitle">
+          Allahumma laka shumtu wa bika aamantu wa ‘ala rizqika afthartu
+          fataqabbal minni innaka anta as-sami’ul ‘alim.
+        </p>
+      </div>
+    </section>
+
+    <div class="parallex tujuan">
+      <div class="section-title">
+        <h2>tujuan puasa ramadhan</h2>
+        <div class="ornament"></div>
+      </div>
+      <section id="tujuan">
+        <ul class="ul">
+          <li>
+            <a href="#">
+              <i class="thumbs-up"></i>
+              <span>Meningkatkan Ketakwaan kepada Allah</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="-comment"></i>
+              <span>Mengendalikan Hawa Nafsu</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="share"></i>
+              <span> Meningkatkan Kesehatan </span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="-heart"></i>
+              <span> Membentuk Kebiasaan Baik</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Charity Section -->
+    <section id="charity" class="charity">
+      <div class="section-title">
+        <h2>Support Those in Need</h2>
+        <div class="ornament"></div>
+      </div>
+      <div class="charity-content">
+        <p class="charity-text">
+          “Barangsiapa memberi makan orang yang berpuasa, maka baginya pahala
+          seperti pahala orang yang berpuasa itu, tanpa dikurangi sedikit pun.”
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <a href="#home">Beranda</a>
+          <a href="#about">About</a>
+          <a href="#benefit">Benefit</a>
+          <a href="#tujuan">objective</a>
+        </div>
+        <div class="footer-section">
+          <h3>About</h3>
+          <p>Selamat menunaikan ibadah puasa di tahun 2025</p>
+          
+        </div>
+        <div class="footer-section">
+          <h3>Social</h3>
+          <div class="flex justify-center space-x-4">
+            <a class="text-white text-2xl" href="#">
+             <i class="fab fa-facebook">
+             </i>
+            </a>
+            <a class="text-white text-2xl" href="#">
+             <i class="fab fa-instagram">
+             </i>
+            </a>
+            <a class="text-white text-2xl" href="#">
+             <i class="fab fa-youtube">
+             </i>
+            </a>
+           </div>
+          
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Ramadan Mubarak. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
