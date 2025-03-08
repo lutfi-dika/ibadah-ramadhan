@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  margin-bottom: 9%;
 }
 
 .logo {
@@ -145,6 +146,7 @@ body {
   width: 50%;
   margin: 1rem;
   position: relative;
+ mix-blend-mode:color-burn;
 }
 
 .btn {
@@ -584,7 +586,7 @@ body {
 
 .parallex{
   width:100%;
-  height: 100vh;
+  height:100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -599,7 +601,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height:50vh;
 }
 
 .ul li {
@@ -744,7 +746,7 @@ body {
 
 .parallex{
   width:100%;
-  height: 169vh;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
