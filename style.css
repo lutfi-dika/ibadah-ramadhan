@@ -97,7 +97,7 @@ body {
 }
 
 .about {
-  background-color: white;
+  /* background-color: white; */
   height: 100vh;
 }
 
@@ -401,6 +401,13 @@ body {
 
 .History {
   background-image: url("mosque-5172226_1280.png");
+}
+
+.about{
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
 }
 
 #History {
